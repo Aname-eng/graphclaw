@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+meta_venv/
+venv/
+.venv/
+
+# Environment (contains API keys)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project generated files
+result/
+deployed/
+capacities/capacity_index.json
+feishu_files/
+cron_output/
+cron_jobs.json
+
+# Databases
+*.db
+checkpoints.db
+sessions.db
+
+# Config
+config.json
+approved_commands.json
+graph_config.json
+
+# Logs
+*.log

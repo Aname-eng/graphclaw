@@ -1,0 +1,59 @@
+{
+  "name": "simple_subgraph",
+  "description": "中等复杂度子图（score=60），包含标准处理流程",
+  "complexity": {
+    "score": 60,
+    "is_complex": true,
+    "reason": "检测到 4 个步骤关键词 (+30); 检测到 6 个工具操作关键词 (+25); 任务长度 57 字 (+5)"
+  },
+  "task": "搜索最新的人工智能新闻，然后分析发展趋势，最后生成一份详细的调研报告。这个任务需要读取多个网页内容并进行综合分析。",
+  "nodes": [
+    {
+      "id": "entry",
+      "type": "entry",
+      "description": "入口节点：接收输入并初始化状态"
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "description": "处理节点：执行核心逻辑"
+    },
+    {
+      "id": "exit",
+      "type": "exit",
+      "description": "出口节点：输出最终结果"
+    }
+  ],
+  "edges": [
+    {
+      "from": "entry",
+      "to": "process"
+    },
+    {
+      "from": "process",
+      "to": "exit"
+    }
+  ],
+  "state_schema": {
+    "task": {
+      "type": "str",
+      "description": "原始任务描述"
+    },
+    "input_data": {
+      "type": "Any",
+      "description": "输入数据"
+    },
+    "output_data": {
+      "type": "Any",
+      "description": "输出数据"
+    },
+    "status": {
+      "type": "str",
+      "description": "当前状态: pending, processing, completed, error"
+    },
+    "metadata": {
+      "type": "dict",
+      "description": "附加元数据"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+name: git_status
+description: Show git repository status (short format)
+command: git status --porcelain
+parameters: {}
+timeout: 10
+output_parser: text

@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "web-search-skill",
+      "description": "Search web pages using Bing browser automation. Invoke when user asks for news, web info, or requires browsing multiple pages to gather information.",
+      "path": ".trae/skills/web-search-skill/SKILL.md",
+      "version": "1.0.0",
+      "author": "meta-cabinet",
+      "tags": ["web", "search", "browser", "bing"]
+    }
+  ],
+  "version": "1.0.0"
+}

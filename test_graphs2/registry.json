@@ -1,0 +1,24 @@
+{
+  "graphs": {
+    "default": {
+      "id": "default",
+      "name": "default",
+      "description": "Default graph",
+      "status": "active",
+      "created_at": "2026-05-04T05:35:19.402335+00:00",
+      "task_description": "Default task",
+      "file_path": "D:\\my_ai\\meta_cabinet\\test_graphs2\\default.json",
+      "parent_graph_id": null
+    },
+    "9bf13c3a-8420-4510-90db-e66e1ab6396e": {
+      "id": "9bf13c3a-8420-4510-90db-e66e1ab6396e",
+      "name": "simple_subgraph",
+      "description": "中等复杂度子图（score=60），包含标准处理流程",
+      "status": "inactive",
+      "created_at": "2026-05-04T05:35:19.406346+00:00",
+      "task_description": "搜索最新的人工智能新闻，然后分析发展趋势，最后生成一份详细的调研报告。这个任务需要读取多个网页内容并进行综合分析。",
+      "file_path": "D:\\my_ai\\meta_cabinet\\test_graphs2\\d7943f8b-1503-4af9-a3a1-a1439bfbf660\\subgraph.py",
+      "parent_graph_id": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+name: ffmpeg_info
+description: Get media file information using ffmpeg
+command: ffmpeg -i {input_file} 2>&1
+parameters:
+  input_file:
+    type: string
+    description: Path to input media file
+    required: true
+timeout: 30
+output_parser: text

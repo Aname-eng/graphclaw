@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "default_graph_id": "default",
+  "auto_switch": true,
+  "complexity_threshold": 60,
+  "archive_days": 7,
+  "ui_theme": "default",
+  "last_updated": "2026-05-04T00:00:00"
+}

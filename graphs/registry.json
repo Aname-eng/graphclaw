@@ -1,0 +1,14 @@
+{
+  "graphs": {
+    "default": {
+      "id": "default",
+      "name": "default",
+      "description": "Default graph",
+      "status": "active",
+      "created_at": "2026-05-04T05:51:28.882480+00:00",
+      "task_description": "Default task",
+      "file_path": "D:\\my_ai\\meta_cabinet\\graphs\\default.json",
+      "parent_graph_id": null
+    }
+  }
+}
